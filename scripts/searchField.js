@@ -5,7 +5,7 @@ const matchList = document.getElementById("match-list");
 //
 //_3__Search states.json and filter it
 const searchStates = async (searchText) => {
-  const res = await fetch("../data/states.json");
+  const res = await fetch("./data/states.json");
   const states = await res.json();
 
   // 4 __ check if it works
@@ -33,7 +33,7 @@ const searchStates = async (searchText) => {
 
   //
   // __7 check if it works
-  //   console.log(matches);
+  // console.log(matches);
   //
   //__9 now show the result on the browser instead if the console by creating a function, start by calling it first.
   outputHtml(matches);
