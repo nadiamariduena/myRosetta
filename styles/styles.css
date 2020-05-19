@@ -159,7 +159,7 @@ body #topSection .introTop .seeMoreBtn:hover {
 body #topSection .topSectionImg {
   width: 100%;
   height: 80vh;
-  background-image: url(../img/books-gestalt.png);
+  background-image: url(../img/books-gestalt2.jpg);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
@@ -524,7 +524,7 @@ body #footer .footerWrapper p {
   body #topSection .topSectionImg {
     width: 100%;
     height: 80vh;
-    background-image: url(../img/books-gestalt.png);
+    background-image: url(../img/books-gestalt2.jpg);
     background-size: cover;
     background-position: top right;
     background-repeat: no-repeat;
@@ -941,7 +941,7 @@ body #bottomSection .formWrapper .field-password input {
   body #topSection .topSectionImg {
     width: 100%;
     height: 80vh;
-    background-image: url(../img/books-gestalt.png);
+    background-image: url(../img/books-gestalt2.jpg);
     background-size: cover;
     background-position: top right;
     background-repeat: no-repeat;
@@ -1358,7 +1358,7 @@ body #bottomSection .formWrapper .field-password input {
   body #topSection .topSectionImg {
     width: 100%;
     height: 80vh;
-    background-image: url(../img/books-gestalt.png);
+    background-image: url(../img/books-gestalt2.jpg);
     background-size: cover;
     background-position: top right;
     background-repeat: no-repeat;
