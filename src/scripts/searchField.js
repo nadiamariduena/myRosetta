@@ -1,6 +1,15 @@
+// import { imageMiddlee, greenBox, matchLista } from "./search-styles";
+// let { imageMiddlee, greenBox, matchLista } = require("./search-styles");
+let greenBox = document.querySelector(".greenBox");
+let matchLista = document.querySelector("#match-list");
+let imageMiddlee = document.querySelector("#image-middle");
+//
+
+// ----------------
 // 1
 const search = document.getElementById("search");
 const matchList = document.getElementById("match-list");
+// -----
 
 //
 //_3__Search states.json and filter it
@@ -10,7 +19,13 @@ const searchStates = async (searchText) => {
 
   // 4 __ check if it works
   // console.log(states);
+  // --------------ghassan
 
+  matchLista.style.padding = "200px 0 200px 0";
+  imageMiddlee.style.display = "flex";
+  greenBox.style.display = "flex";
+
+  // ----------------ghassan
   //   ----------------------
   //_5_   Get matches to current text input, to change everytime you type something
   let matches = states.filter((state) => {
